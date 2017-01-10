@@ -1,0 +1,96 @@
+body {
+  font-family: "Final Fantasy 3/6 Font";
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/*whole panel*/
+.main-panel, .menu-panel, .time-panel, .gil-panel {
+  border: solid 5px gray;
+  border-radius: 5px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  overflow: hidden;
+}
+.main-panel {
+  position: absolute;
+  bottom: 25%;
+  top: 0;
+
+  width: 100%;
+/*padding-bottom: 75%;*/
+
+/*max-width: 100%;*/
+background: linear-gradient(blue, navy);
+}
+
+/*left side of the menu*/
+.party-panel {
+  height: 100%;
+  width: 80%;
+}
+
+
+.portrait-slots {
+  height: 25%;
+}
+
+.portrait {
+  width: 30%;
+  float: left;
+}
+
+.party-status {
+  width: 70%;
+}
+
+/*Right side of the menu*/
+.right-panel {
+  position: absolute;
+  float: right;
+  width: 20%;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.menu-panel {
+
+      height: 60%;
+
+}
+
+.menu-list li, .menu-list a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  margin-right: 10px;
+  height: 60%;
+}
+
+.time-panel {
+  height: 10%;
+}
+
+.time-panel p {
+  color: white;
+  text-align: center;
+  line-height: 0px;
+}
+
+.gil-panel {
+
+  height: 30%;
+}
+
+.gil-panel p {
+  color: white;
+  text-align: center;
+}
